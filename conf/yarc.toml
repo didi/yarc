@@ -1,0 +1,17 @@
+[yarc]
+listen_addr = ":8080"
+pid = "/var/run/yarc.pid"
+
+[log]
+file_prefix = "yarc"
+dir = "./log"
+level = "info"
+auto_clear = true
+clear_hours = 4
+separate = true
+
+[session_logger]
+log_dir = "./log/"
+log_file_prefix = "record.log"
+auto_clear = true
+clear_hours = 4

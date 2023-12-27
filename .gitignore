@@ -1,0 +1,33 @@
+# yarc
+/yarc
+/yarc-agent
+*_bpfel.go
+*_bpfeb.go
+
+# C/C++ Object files
+*.o
+*.log
+
+# vscode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# idea
+.idea/
+
+# Vim
+*.swp
+
+# macOS
+.DS_Store
+
+# patch
+*.patch
+
+# output, log
+/output
+/log
